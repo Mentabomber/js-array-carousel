@@ -5,12 +5,13 @@
     box-sizing: border-box;
 }
 
-#arrow-up-carosel{
+#arrow-up-carousel{
     position: absolute;
     top: 5%;
     right: 50%;
+    z-index: 999;
 }
-#arrow-down-carosel{
+#arrow-down-carousel{
     position: absolute;
     bottom: 5%;
     right: 50%;
@@ -31,6 +32,7 @@
 .img-container{
     width: 100%;
     height: 100%;
+    display: none;
 }
 img{
     width: 100%;
@@ -54,5 +56,5 @@ button{
 }
 
 .myImg{
-    
+
 }
