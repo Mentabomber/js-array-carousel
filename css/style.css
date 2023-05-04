@@ -43,6 +43,7 @@
 
 .thumb-nail-selected{
     filter: brightness(100%);
+    border: 5px solid grey;
 }
 img{
     width: 100%;
